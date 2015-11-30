@@ -31,6 +31,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         self.table.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         list()
+        //print
         if NSUserDefaults.standardUserDefaults().objectForKey("key") != nil{
         todolist = NSUserDefaults.standardUserDefaults().objectForKey("key") as! [String]
        }
