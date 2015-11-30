@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    //var
     var todolist:[String] = []
     @IBOutlet weak var table: UITableView!
     @IBOutlet weak var tekstfield: UITextField!
